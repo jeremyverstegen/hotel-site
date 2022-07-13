@@ -1,0 +1,34 @@
+html, body {
+    margin: 0px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('C:/Users/jvmed/OneDrive/Desktop/react_portfolio_projects/hotel-site/public/images/resort_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+}
+
+.hero-text {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    word-wrap: none;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
