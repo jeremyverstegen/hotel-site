@@ -1,9 +1,11 @@
 .hero-image {
-    background-image: url("resort_background.jpg"); 
+    background-image: url("/public/images/resort_background.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    max-width: 100vw;
+    position: relative;
 }
 
 .banner-text {

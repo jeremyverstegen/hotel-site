@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink, Form, FormGroup, Input, Label } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import logo from './abstract_logo.png';
-import './header.css';
 
 
 class Header extends Component {
@@ -24,11 +23,9 @@ class Header extends Component {
                         </NavItem>         
                     </Nav>    
                 </Navbar>
-                <div className="hero-image">
-                </div>
             </React.Fragment>
-        )
-    }    
-}
+        );
+    } ;   
+};
 
 export default Header;

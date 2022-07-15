@@ -1,0 +1,58 @@
+.hero-image1 {
+    background-image: url("/public/images/resort_background.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.hero-image2 {
+    background-image: url("/public/images/amelia-speight-Q5RuE17zyBg-unsplash.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.hero-image3 {
+    background-image: url("/public/images/waqas-akhtar-_a4cjhECb-A-unsplash.jpg"); 
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+h2 {
+    margin: 4px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.img_thumb1 {
+    content: url("/public/images/patio_photo.jpg");
+}
+.img_thumb2 {
+    content: url("/public/images/waiting_room.jpg");
+}
+.img_thumb3 {
+    content: url("/public/images/food1.jpg");
+}
+
+.cardText {
+    text-align: center;
+    position: relative;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
