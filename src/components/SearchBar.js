@@ -26,7 +26,6 @@ class SearchBar extends Component {
 
     render() {
         return (
-
             <FormGroup>
                 <Label>Select Dates</Label>
                 <DatePicker id="datepicker" value={this.state.value} onChange={(v, f) => this.handleChange(v, f)} />

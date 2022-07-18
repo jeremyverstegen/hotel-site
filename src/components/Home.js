@@ -42,7 +42,7 @@ class Home extends Component {
                 <MDBInput label='Select Dates' size='lg' id='search' type='text' />
               </div>
               < div className='col-2'>
-                <MDBBtn className='btn' size='lg' outline color='dark'>Search</MDBBtn>
+                <MDBBtn size='lg' outline color='dark'>Search</MDBBtn>
               </div>
             </div> 
           <div className='row'>
@@ -53,7 +53,8 @@ class Home extends Component {
               <br></br>
               <Card>
                 <CardBody>
-                  <CardText>Find Luxury Anywhere in the World..</CardText>
+                  <CardText className="cardText">Find luxury anywhere in the world</CardText>
+                  <CardText className="cardText2">Help us guide you to your next destination</CardText>
                 </CardBody>
               </Card>
             </div>
