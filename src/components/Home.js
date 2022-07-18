@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardHeader, CardText } from 'reactstrap';
+import { Card, FormGroup, Label, FormText } from 'reactstrap';
+import { DatePicker } from 'reactstrap-date-picker';
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -9,6 +10,7 @@ import {
   MDBBtn,
 } from 'mdb-react-ui-kit';
 import './home.css';
+import SearchBar from './SearchBar';
 
 class Home extends Component {
   render() {
@@ -32,7 +34,7 @@ class Home extends Component {
             Find Your Next Adventure
           </h2>
             <div className='row'>
-              <div className='col-md'>
+              <div className='col-6'>
                 <MDBInput label='Search Destinations' size='lg' id='search' type='text' />
                 <MDBBtn className='btn' outline color='dark'>Search</MDBBtn>
               </div>
@@ -55,9 +57,8 @@ class Home extends Component {
           </div> 
         </div>
       </div>
-
-    )
-  }
-}
+    );
+  };
+};
 
 export default Home;

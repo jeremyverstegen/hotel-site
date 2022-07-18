@@ -1,6 +1,5 @@
 import React from 'react'
 import { MDBFooter } from 'mdb-react-ui-kit';
-import logo from './abstract_logo.png';
 
 function Footer() {
     return (
