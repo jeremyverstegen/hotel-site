@@ -28,7 +28,6 @@ class SearchBar extends Component {
         return (
 
             <FormGroup>
-
                 <Label>Select Dates</Label>
                 <DatePicker id="datepicker" value={this.state.value} onChange={(v, f) => this.handleChange(v, f)} />
             </FormGroup>

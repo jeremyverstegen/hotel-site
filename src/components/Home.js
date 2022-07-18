@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, FormGroup, Label, FormText } from 'reactstrap';
+import { Card, CardBody, CardText, FormGroup, Label, FormText, CardImg } from 'reactstrap';
 import { DatePicker } from 'reactstrap-date-picker';
 import {
   MDBCarousel,
@@ -36,7 +36,13 @@ class Home extends Component {
             <div className='row'>
               <div className='col-6'>
                 <MDBInput label='Search Destinations' size='lg' id='search' type='text' />
-                <MDBBtn className='btn' outline color='dark'>Search</MDBBtn>
+
+              </div>
+              <div className='col-4'>
+                <MDBInput label='Select Dates' size='lg' id='search' type='text' />
+              </div>
+              < div className='col-2'>
+                <MDBBtn className='btn' size='lg' outline color='dark'>Search</MDBBtn>
               </div>
             </div> 
           <div className='row'>
@@ -46,7 +52,9 @@ class Home extends Component {
               </Card>
               <br></br>
               <Card>
-                <img className='img_thumb3 card-img-top' alt='food' />
+                <CardBody>
+                  <CardText>Find Luxury Anywhere in the World..</CardText>
+                </CardBody>
               </Card>
             </div>
             <div className='col'>
