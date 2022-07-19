@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardText, FormGroup, Label, FormText, CardImg } from 'reactstrap';
-import { DatePicker } from 'reactstrap-date-picker';
+import { Card, CardBody, CardText } from 'reactstrap';
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -10,7 +9,7 @@ import {
   MDBBtn,
 } from 'mdb-react-ui-kit';
 import './home.css';
-import SearchBar from './SearchBar';
+
 
 class Home extends Component {
   render() {
