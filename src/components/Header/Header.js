@@ -13,7 +13,7 @@ class Header extends Component {
                     </NavbarBrand>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href='/home'>HOME</NavLink>
+                            <NavLink href='/'>HOME</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href='/book'>BOOK</NavLink>
