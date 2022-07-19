@@ -10,7 +10,6 @@ import {
 } from 'mdb-react-ui-kit';
 import './home.css';
 
-
 class Home extends Component {
   render() {
     return(

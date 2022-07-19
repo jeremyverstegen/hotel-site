@@ -42,10 +42,10 @@ function Footer() {
                                 <a href="#!" class="text-reset">Guests</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Reservations</a>
+                                <a href="/book" class="text-reset">Reservations</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Contact</a>
+                                <a href="/contact" class="text-reset">Contact</a>
                             </p>
                         </div>
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -58,7 +58,6 @@ function Footer() {
                                 info@JVResorts.com
                             </p>
                             <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
                         </div>
                     </div>
                 </div>

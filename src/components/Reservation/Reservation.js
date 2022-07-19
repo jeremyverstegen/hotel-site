@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Label, Input, Card, CardHeader, CardBody, CardImg } from 'reactstrap';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import './reservation.css'
 
@@ -7,7 +7,9 @@ class Reservation extends Component {
     render() {
         return (
             <div className='container'>
-                <h2>Find Your Perfect Getaway</h2>
+                <div className='banner'>
+                    <h2 className='banner-text'>Find Your Perfect Getaway</h2>
+                </div>
                 <div className='row'>
                     <div className='col'>
                         <Form>
@@ -53,10 +55,10 @@ class Reservation extends Component {
                                     <option>8</option>
                                 </Input>
                             </FormGroup>
-                            <MDBBtn className='btn' size='lg' outline color='dark'>Submit</MDBBtn>
+                            <MDBBtn className='form-btn' size='lg' outline color='dark'>Submit</MDBBtn>
                         </Form>
                     </div>
-                </div>   
+                </div>
             </div>
         )
     }

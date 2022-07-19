@@ -1,4 +1,28 @@
-.btn {
+.form-btn {
     margin-top: 20px;
-    margin-left: 5rem;
+}
+
+.banner {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("/public/images/tim-arnold-LzQYJNfXkvE-unsplash.jpg"); 
+    background-position: center;
+    background-position-y: 62%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 44px;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
